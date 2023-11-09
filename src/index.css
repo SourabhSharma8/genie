@@ -1,0 +1,44 @@
+
+
+
+.btn-gradient {
+  background: linear-gradient(to right, #7E57C2, #03A9F4); /* Gradient from purple to blue */
+  color: #fff; /* Text color */
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background 0.3s; /* Smooth transition on hover */
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #03A9F4, #7E57C2); /* Reverse gradient on hover */
+}
+
+.dark-bold {
+  color: #000; /* Dark text color */
+  font-weight: bold; /* Bold font */
+}
+
+.font-fam{
+ font-family: Poppins;
+}
+
+.heading-link{
+  display: flex!important;
+    justify-content: space-between;
+}
+
+.para-text{
+  font-size: larger;
+    font-weight: 300;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
